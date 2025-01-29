@@ -37,7 +37,7 @@ https://hng12-backend-api-task.git.onrender.com
 
 
 ## Endpoint
-### `GET /api`
+### `GET /`
 #### Response:
 ```json
 {

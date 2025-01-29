@@ -8,7 +8,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-@app.route("/api", methods=["GET"])
+@app.route("/", methods=["GET"])
 def get_info():
     """
         retrieves the info of an intern at HNG and returns it.
